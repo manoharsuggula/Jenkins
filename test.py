@@ -12,7 +12,7 @@ class TestFactorial(unittest.TestCase):
     def test_number2(self):
         data = 5
         result = factorial(data)
-        self.assertEqual(result, 120)
+        self.assertEqual(result, 125)
 
     def test_number3(self):
         data = 4
